@@ -1,86 +1,29 @@
 body {
   background-color: #EEEBDD;
-
 }
-
 h3 {
   position: absolute;
   width: 100px;
   height: 24px;
   left: 120px;
   top: 29px;
-  font-family: 'chivo';
+font-family: 'Chivo', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
   color: #000000;
 }
-
-.introduction {
-  position: absolute;
-  width: 795px;
-  height: 228px;
-  left: 120px;
-  top: 160px;
-  font-family: 'chivo';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 64px;
-  line-height: 76px;
-  color: #000000;
-}
-
-.previous {
-  position: absolute;
-  width: 35px;
-  height: 17px;
-  left: 677px;
-  top: 911px;
-  font-family: 'Chivo';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 17px;
-  /* identical to box height */
-  color: rgba(0, 0, 0, 0.5);
-}
-
-.next {
-  position: absolute;
-  width: 35px;
-  height: 17px;
-  left: 721px;
-  top: 911px;
-  font-family: 'Chivo';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 17px;
-  /* identical to box height */
-  color: #000000;
-}
-
-.first-image {
-  position: absolute;
-  width: 617px;
-  height: 787px;
-  left: 775px;
-  top: 138px;
-  background: url(.jpg);
-  border-radius: 6px;
-}
-
 .home {
   width: 44px;
   height: 19px;
-  font-family: 'Chivo';
+  font-family: 'Chivo', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
   /* identical to box height */
-  color: #000000;
+    color: rgba(0, 0, 0, 0.5);
   /* Inside auto layout */
   flex: none;
   order: 0;
@@ -92,7 +35,7 @@ h3 {
 .project {
   width: 63px;
   height: 19px;
-  font-family: 'Chivo';
+  font-family: 'Chivo', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -110,7 +53,7 @@ h3 {
 .about {
   width: 45px;
   height: 19px;
-  font-family: 'Chivo';
+  font-family: 'Chivo', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -128,7 +71,7 @@ h3 {
 .artists {
   width: 51px;
   height: 19px;
-  font-family: 'Chivo';
+  font-family: 'Chivo', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -146,7 +89,7 @@ h3 {
 .contact-us {
   width: 82px;
   height: 19px;
-  font-family: 'Chivo';
+font-family: 'Chivo', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -161,41 +104,6 @@ h3 {
 .contact-us:hover{
   color: white;
 }
-.context-head {
-  position: absolute;
-  width: 1139px;
-  height: 24px;
-  left: 186px;
-  top: 1071px;
-  font-family: 'Chivo';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 24px;
-  /* identical to box height */
-  text-transform: capitalize;
-  text-align: center;
-  color: #000000;
-}
-
-/* not sure about this part */
-.context-main {
-  position: absolute;
-  width: 1039px;
-  height: 133px;
-  left: 236px;
-  top: 1132px;
-  font-family: 'Chivo';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  text-align: center;
-  text-transform: capitalize;
-  color: #000000;
-}
-
-
 .navbar {
   display: flex;
   flex-direction: row;
@@ -208,30 +116,195 @@ h3 {
   left: 979px;
   top: 41px;
 }
-.button{
-  box-sizing: border-box;
+.introduction{
+  position: absolute;
+width: 795px;
+height: 76px;
+left: 120px;
+top: 105px;
+
+font-family: 'Chivo', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 76px;
+
+color: #000000;
+}
+.all{
+  position: absolute;
+  width: 20px;
+  height: 19px;
+  left: 120px;
+  top: 327px;
+
+  font-family: 'Chivo', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-transform: capitalize;
+
+  color: #000000;
+
+}
+.abstract{
+  position: absolute;
+  width: 49px;
+  height: 14px;
+  left: 120px;
+  top: 351px;
+
+  font-family: 'Chivo', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: capitalize;
+
+  color: #000000;
+
+}
+.modern{
+  position: absolute;
+  width: 45px;
+  height: 14px;
+  left: 120px;
+  top: 370px;
+
+font-family: 'Chivo', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: capitalize;
+
+  color: #000000;
+}
+.portrait{
+  position: absolute;
+  width: 45px;
+  height: 14px;
+  left: 120px;
+  top: 389px;
+
+font-family: 'Chivo', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: capitalize;
+
+  color: #000000;
+
+}
+.oil{
+  position: absolute;
+  width: 60px;
+  height: 14px;
+  left: 120px;
+  top: 408px;
+
+  font-family: 'Chivo', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: capitalize;
+
+  color: #000000;
+
+}
+.human{
+  position: absolute;
+  width: 41px;
+  height: 14px;
+  left: 120px;
+  top: 427px;
+
+  font-family: 'Chivo', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: capitalize;
+
+  color: #000000;
+
+}
+.filter{
+  position: absolute;
+  width: 77px;
+  height: 17px;
+  left: 1292px;
+  top: 440px;
+
+font-family: 'Chivo', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  text-transform: capitalize;
+
+  color: #000000;
+
+}
+.fourth-image{
 
 position: absolute;
-width: 142px;
-height: 41px;
-left: 704px;
-top: 1302px;
+width: 438px;
+height: 558px;
+left: 120px;
+top: 484px;
 
-border: 1px solid #000000;
-border-radius: 4px;
+background: url(larger);
+border-radius: 8px;
 }
-.box-word{
+.fifth-image{
   position: absolute;
-width: 89px;
-height: 19px;
-left: 26px;
-top: -5px;
+  width: 700px;
+  height: 437px;
+  left: 684px;
+  top: 484px;
+
+  background: url();
+  border-radius: 6px;
+}
+.info-1{
+  position: absolute;
+width: 100px;
+height: 24px;
+left: 120px;
+top: 1031px;
 
 font-family: 'Chivo';
 font-style: normal;
 font-weight: 400;
-font-size: 16px;
-line-height: 19px;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+
+text-align: center;
+text-transform: capitalize;
+
+color: #000000;
+}
+.info-2{
+  position: absolute;
+width: 244px;
+height: 24px;
+left: 684px;
+top: 913px;
+
+font-family: 'Chivo';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
 /* identical to box height */
 
 text-align: center;
@@ -240,15 +313,103 @@ text-transform: capitalize;
 color: #000000;
 
 }
-.latest-artworks{
+.sixth-image{
   position: absolute;
-width: 187px;
-height: 29px;
-left: 610px;
-top: 1445px;
-margin-top: -15px;
+width: 689px;
+height: 545px;
+left: 120px;
+top: 1152px;
+
+background: url(Oluwole-Omofemi-App-Image-copy.jpg);
+border-radius: 8px;
+}
+.info-3{
+  position: absolute;
+width: 116px;
+height: 24px;
+left: 120px;
+top: 1690px;
+
+font-family: 'Chivo';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
 
 text-align: center;
+text-transform: capitalize;
+
+color: #000000;
+
+}
+.seventh-image{
+  position: absolute;
+width: 423px;
+height: 621px;
+left: 968px;
+top: 1114px;
+
+background: url(.jpg);
+border-radius: 6px;
+
+}
+.info-4{
+  position: absolute;
+width: 116px;
+height: 24px;
+left: 968px;
+top: 1727px;
+
+font-family: 'Chivo';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+
+text-align: center;
+text-transform: capitalize;
+
+color: #000000;
+
+}
+.eight-image{
+  position: absolute;
+width: 429px;
+height: 298px;
+left: 120px;
+top: 1824px;
+
+background: url(.jpg);
+border-radius: 8px;
+}
+.info-5{
+  position: absolute;
+  width: 101px;
+  height: 24px;
+  left: 120px;
+  top: 2108px;
+
+  font-family: 'Chivo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height */
+
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #000000;
+
+}
+.more{
+  position: absolute;
+width: 133px;
+height: 29px;
+left: 689px;
+top: 2187px;
 
 font-family: 'Chivo';
 font-style: normal;
@@ -257,285 +418,24 @@ font-size: 24px;
 line-height: 29px;
 /* identical to box height */
 
-text-transform: capitalize;
-
-color: #000000;
-
-}
-.second-image{
-  position: absolute;
-width: 423px;
-height: 621px;
-left: 120px;
-top: 1526px;
-
-background: url(.jpg);
-border-radius: 6px;
-}
-.third-image{
-  position: absolute;
-width: 700px;
-height: 437px;
-left: 692px;
-top: 1526px;
-
-background: url(.jpg);
-border-radius: 6px;
-}
-.art-name-1{
-  position: absolute;
-width: 116px;
-height: 24px;
-left: 118px;
-top: 2149px;
-margin: -5px 0 0 0;
-
-font-family: 'Chivo';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 24px;
-/* identical to box height */
-
 text-align: center;
 text-transform: capitalize;
 
 color: #000000;
 
 }
-.artist-name-1{
-  position: absolute;
-width: 153px;
-height: 24px;
-left: 119px;
-top: 2171px;
-margin: -5px 0 0 0;
 
-font-family: 'Chivo';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 24px;
-/* identical to box height */
-
-text-align: center;
-text-transform: capitalize;
-
-color: #000000;
-
+.more:hover{
+  color: white;
 }
-.art-name-2{
-  position: absolute;
-width: 244px;
-height: 24px;
-left: 692px;
-top: 1963px;
-margin: -5px 0 0 0;
-
-font-family: 'Chivo';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 24px;
-/* identical to box height */
-
-text-align: center;
-text-transform: capitalize;
-
-color: #343333;
-}
-.artist-name-2{
-  position: absolute;
-width: 258px;
-height: 24px;
-left: 692px;
-top: 1990px;
-margin: -5px 0 0 0;
-
-font-family: 'Chivo';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 24px;
-/* identical to box height */
-
-text-align: center;
-text-transform: capitalize;
-
-color: #000000;
-}
-.highest-bid-1{
-  position: absolute;
-width: 74px;
-height: 17px;
-left: 374px;
-top: 2156px;
-margin: -5px 0 0 0;
-
-font-family: 'Chivo';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 17px;
-/* identical to box height */
-
-text-align: center;
-text-transform: capitalize;
-
-color: #000000;
-
-}
-.bid-1{
-  position: absolute;
-width: 85px;
-height: 17px;
-left: 458px;
-top: 2156px;
-margin: -5px 0 0 0;
-
-font-family: 'Chivo';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 17px;
-/* identical to box height */
-
-text-align: center;
-text-transform: capitalize;
-
-color: #000000;
-}
-.highest-bid-2{
-  position: absolute;
-width: 74px;
-height: 17px;
-left: 1228px;
-top: 1970px;
-margin: -5px 0 0 0;
-
-font-family: 'Chivo';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 17px;
-/* identical to box height */
-
-text-align: center;
-text-transform: capitalize;
-
-color: #000000;
-
-}
-.bid-2{
-  position: absolute;
-width: 76px;
-height: 17px;
-left: 1316px;
-top: 1970px;
-margin: -5px 0 0 0;
-
-font-family: 'Chivo';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 17px;
-/* identical to box height */
-
-text-align: center;
-text-transform: capitalize;
-
-color: #000000;
-
-}
-.button-2{
-  box-sizing: border-box;
-
-/* Auto layout */
-
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 6px 22px;
-gap: 10px;
-
-position: absolute;
-width: 121px;
-height: 29px;
-left: 422px;
-top: 2180px;
-
-border: 1px solid #000000;
-border-radius: 4px;
-}
-.box-word-2{
-  width: 77px;
-height: 17px;
-
-font-family: 'Chivo';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 17px;
-margin: -2px 0 0 0;
-/* identical to box height */
-
-text-align: center;
-text-transform: capitalize;
-
-color: #000000;
 
 
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
-}
-.button-3{
-  box-sizing: border-box;
-
-/* Auto layout */
-
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 6px 22px;
-gap: 10px;
-
-position: absolute;
-width: 121px;
-height: 29px;
-left: 1271px;
-top: 1994px;
-
-border: 1px solid #000000;
-border-radius: 4px;
-
-}
-.box-word-3{
-  width: 77px;
-height: 17px;
-margin: -2px 0 0 0;
-
-font-family: 'Chivo';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 17px;
-/* identical to box height */
-
-text-align: center;
-text-transform: capitalize;
-
-color: #000000;
 
 
-/* Inside auto layout */
 
-flex: none;
-order: 0;
-flex-grow: 0;
-}
+
+
+
 .bottom-container{
   position: absolute;
 width: 1812px;
@@ -553,7 +453,7 @@ left: 120px;
 top: -2px;
 padding: 10px;
 
-font-family: 'Chivo';
+font-family: 'Chivo', sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 32px;
@@ -572,7 +472,7 @@ left: 120px;
 top: 50px;
 padding: 10px;
 
-font-family: 'Chivo';
+font-family: 'Chivo', sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 18px;
@@ -589,7 +489,7 @@ left: 120px;
 top: 80px;
 padding: 10px;
 
-font-family: 'Chivo';
+font-family: 'Chivo', sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
@@ -618,7 +518,7 @@ top: 40px;
   width: 96px;
 height: 24px;
 
-font-family: 'Chivo';
+font-family: 'Chivo', sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
@@ -640,7 +540,7 @@ flex-grow: 0;
 height: 24px;
 margin-top: -25px;
 
-font-family: 'Chivo';
+font-family: 'Chivo', sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
@@ -663,7 +563,7 @@ height: 24px;
 margin-top: -25px;
 
 
-font-family: 'Chivo';
+font-family: 'Chivo', sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
@@ -697,7 +597,7 @@ top: 40px;
   width: 99px;
 height: 24px;
 
-font-family: 'Chivo';
+font-family: 'Chivo', sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
@@ -719,7 +619,7 @@ flex-grow: 0;
 height: 24px;
 margin-top: -25px;
 
-font-family: 'Chivo';
+font-family: 'Chivo', sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
@@ -728,7 +628,6 @@ line-height: 24px;
 
 
 color: #000000;
-
 
 
 /* Inside auto layout */
@@ -742,7 +641,7 @@ flex-grow: 0;
 height: 24px;
 margin-top: -25px;
 
-font-family: 'Chivo';
+font-family: 'Chivo', sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
@@ -766,7 +665,7 @@ height: 24px;
 left: 1004px;
 top: 40px;
 
-font-family: 'Chivo';
+font-family: 'Chivo', sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
@@ -792,7 +691,7 @@ height: 21px;
 left: 1004px;
 top: 81px;
 
-font-family: 'Chivo';
+font-family: 'Chivo', sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 18px;
@@ -813,5 +712,21 @@ top: 95px;
   width: 55.08px;
   height: 35px;
 
+
+}
+.angle-up{
+  position: absolute;
+width: 16px;
+height: 16px;
+left: 145px;
+top: 342px;
+
+}
+.angle-down{
+  position: absolute;
+width: 16px;
+height: 16px;
+left: 1376px;
+top: 457px;
 
 }
